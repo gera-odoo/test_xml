@@ -25,8 +25,10 @@
     'data': [
         #'security/ir.model.access.csv',
         #'views/views.xml',
-        'templates.xml',
+        #'templates.xml',
     ],
+    
+    "external_dependencies": {"python": ['numpy']},
     # only loaded in demonstration mode
     'demo': [
         #'demo/demo.xml',
